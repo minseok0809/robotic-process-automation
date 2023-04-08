@@ -1,4 +1,4 @@
-# Robotic Process Autmation
+# Robotic Process Automation
 <br/><br/><br/>
 ## Study Automation
 * Lecture List
