@@ -4,3 +4,5 @@
 * Lecture List
 * Youtube Playlist
 * Google Chrome Scroll
+## File Management
+* Split txt into multiple txt

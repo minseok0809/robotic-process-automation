@@ -22,4 +22,4 @@ for line in lines:
 
 # Reference
 # 파일을 원하는 만큼 분할(쪼개기) (Naver Blog 엠스방 해답을 찾기위해...)
-# https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=wwwkasa&logNo=220902577519
+# https://blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=wwwkasa&logNo=220902577519
