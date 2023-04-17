@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+    <meta charset="utf-8" />
+	<style>
+
+		div {
+			float: left;
+		}
+
+		body {
+			 overflow-x: hidden;
+			 overflow-y: hidden
+		}
+		
+		img {
+			max-width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+
+		label {
+			float: left;
+			font-size: 2rem;
+			margin: 5px 0px 0px 0px;
+		}
+
+		textarea {
+			
+			float: left;
+			position: sticky;
+			width: 350px;
+			height:  38px;
+			padding: 10px;
+			vertical-align: middle;
+			box-sizing: border-box;
+			border: solid 2px #0a0a0a;
+			color: #0a0a0a;
+			font-size: 16px;
+			resize: none;
+			overflow: hidden;
+		}
+
+		.scroll::-webkit-scrollbar {
+   			display: none;
+		}
+
+		.btn-primary {
+			width: 14%;
+			height: 26%;
+			border: none;
+			border-radius: 50px;
+			font-size: 20px;
+			margin: 4px 0px 0px 0px;
+		}
+
+
+		table {
+			width: 360px;
+			height:  20px;
+			padding: 10px;
+			empty-cells: show;
+			float: left;
+			text-align:center;
+			color: black;
+			box-sizing: border-box;
+			border: solid 2px #0a0a0a;
+			font-size: 16px;
+			resize: none;
+			empty-cells: show;
+		}
+
+		td, th {
+			height:  38px;
+			border: 2px solid rgb(0, 0, 0);
+			padding: 0.5rem;
+			text-align:center;
+			font-weight:900;
+		}
+				
+	</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flask</title> 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link href="static/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="static/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="static/css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="static/js/Lightweight-Chart/cssCharts.css"> 
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default top-navbar" role="navigation">
+			<a href="/">
+                <img src="https://www.xxx.jpg"> </a>
+			
+			<div class="navbar-header">    
+		
+            </div>
+			<span style="line-height:1.3em"><br></span>
+			&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;
+			&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&ensp;&emsp;&emsp;
+			&ensp;<font size="4.5em" color="white"><strong>
+				자동화 알고리즘</strong></font>
+        </nav>
+
+	   <!--/. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <a class="active-menu waves-effect waves-dark" href="/" style="font-size: 21px">&emsp;&emsp;<i class="fa fa-desktop"></i>&ensp;Demo
+							&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;&nbsp;</a>	
+                    </li>
+					
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+      
+		<div id="page-wrapper">
+		  <div class="header" style="line-height:55%;"> 
+						<br><br/>
+                        <h1 class="page-header">
+                            &nbsp;Demo
+                        </h1>
+						<ol class="breadcrumb">
+					  <!-- <li><a href="#">Home</a></li>
+					  <li class="active">Demo</li> -->
+					</ol> 
+									
+		</div>
+		
+            <div id="page-inner">
+			
+				<div class="ml-container1" style="word-break:break-all;">
+				
+					<form action="/" method="POST">
+						<label>&nbsp;&nbsp;<b>Task 1</b> &emsp;&ensp;</label> 
+					<!-- <input type="text" name="comment"/> -->
+					<textarea class="scroll" name="message_task1"></textarea>
+					&emsp;&emsp;&emsp;&ensp;&nbsp;
+					<input type="submit" class="btn-primary" value="Predict">
+					&ensp;&emsp;&emsp;&emsp;&emsp;&ensp;
+					</form>		
+				</div>	
+				<table class="a" style="margin:-20px 0px 0px 0px;">
+					<tr bgcolor="#F7F2E0">
+						<td><b>Object 1</b></td>
+						<td><b>Object 2</b></td>
+					</tr>
+					<tr>
+						<td>{{result_task1}}</td>
+						<td>{{number_task1}}</td>
+					</tr>
+				</table>
+		
+				<br><br/><br><br/><br><br/><br><br/><br><br/>
+			<div class="ml-container2" style="word-break:break-all;">
+					
+				<form action="/" method="POST">
+					<label>&nbsp;&nbsp;&emsp;<b>Task 2</b>&nbsp;&nbsp;&nbsp;&emsp;&ensp;&ensp;</label> 
+				<!-- <input type="text" name="comment"/> -->
+				<textarea class="scroll" name="message_task2"></textarea>
+				&emsp;&emsp;&emsp;&ensp;&nbsp;
+				<input type="submit" class="btn-primary" value="Predict">
+				&ensp;&emsp;&emsp;&emsp;&emsp;&ensp;
+				</form>		
+			</div>	
+			<table class="a" style="margin:-63px 0px 0px 0px;">
+				<tr bgcolor="#F7F2E0">
+					<td><b>Object 3</b></td>
+					<td><b>Object 4</b></td>
+				</tr>
+				<tr>
+					<td>{{result_task2}}</td>
+					<td>{{number_task2}}</td>
+				</tr>
+				<tr>
+					<td>{{result_task2_01}}</td>
+					<td>{{number_task2_01}}</td>
+				</tr>
+				<tr>
+					<td>{{result_task2_02}}</td>
+					<td>{{number_task2_02}}</td>
+				</tr>
+			</table>
+			
+			
+			<br><br/><br><br/><br><br/><br><br/><br><br/><br><br/>
+			<div class="ml-container3">
+					
+				<form action="/" method="POST">
+					<label>&nbsp;&nbsp;<b>Task 3</b> &emsp;&ensp;</label> 
+				<!-- <input type="text" name="comment"/> -->
+				<textarea class="scroll" name="message_task3"></textarea>
+				&emsp;&emsp;&emsp;&ensp;&nbsp;
+				<input type="submit" class="btn-primary" value="Predict">
+				&ensp;&emsp;&emsp;&emsp;&emsp;&ensp;
+				</form>		
+			</div>	
+			<table class="a" style="margin:-61px 0px 0px 0px;">
+				<tr bgcolor="#F7F2E0">
+					<td><b>Object 5</b></td>
+					<td><b>Object 6</b></td>
+				</tr>
+				<tr>
+					<td>{{result_task3}}</td>
+					<td>{{number_task3}}</td>
+				</tr>
+				<tr>
+					<td>{{result_task3_01}}</td>
+					<td>{{number_task3_01}}</td>
+				</tr>
+				<tr>
+					<td>{{result_task3_02}}</td>
+					<td>{{number_task3_02}}</td>
+				</tr>
+			</table>
+		
+			</div>
+				
+			
+				</div>
+		
+				<footer><p> <i class="fa fa-love"></i><a href="https://bootstrapthemes.co"> </a>
+</p>
+				
+        
+				</footer>
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="static/js/jquery-1.10.2.js"></script>
+	
+	<!-- Bootstrap Js -->
+    <script src="static/js/bootstrap.min.js"></script>
+	
+	<script src="static/materialize/js/materialize.min.js"></script>
+	
+    <!-- Metis Menu Js -->
+    <script src="static/js/jquery.metisMenu.js"></script>
+    <!-- Morris Chart Js -->
+    <script src="static/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="static/js/morris/morris.js"></script>
+	
+	
+	<script src="static/js/easypiechart.js"></script>
+	<script src="static/js/easypiechart-data.js"></script>
+	
+	 <script src="static/js/Lightweight-Chart/jquery.chart.js"></script>
+	
+    <!-- Custom Js -->
+    <script src="static/js/custom-scripts.js"></script> 
+ 
+
+</body>
+
+</html>
