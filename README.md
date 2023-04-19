@@ -7,6 +7,7 @@
 <br/><br/>
 ## File Management
 * Split txt into multiple txt
+* Merge txt
 <br/><br/>
 ## Web Automation
 * Flask

@@ -18,7 +18,6 @@ for line in lines:
     
     cnt = cnt + 1
     
-    
 
 # Reference
 # 파일을 원하는 만큼 분할(쪼개기) (Naver Blog 엠스방 해답을 찾기위해...)
