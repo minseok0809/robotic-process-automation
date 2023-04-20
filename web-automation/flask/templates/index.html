@@ -2,85 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml"> 
 <head>
     <meta charset="utf-8" />
-	<style>
-
-		div {
-			float: left;
-		}
-
-		body {
-			 overflow-x: hidden;
-			 overflow-y: hidden
-		}
-		
-		img {
-			max-width: 100%;
-			height: 100%;
-			position: absolute;
-		}
-
-		label {
-			float: left;
-			font-size: 2rem;
-			margin: 5px 0px 0px 0px;
-		}
-
-		textarea {
-			
-			float: left;
-			position: sticky;
-			width: 350px;
-			height:  38px;
-			padding: 10px;
-			vertical-align: middle;
-			box-sizing: border-box;
-			border: solid 2px #0a0a0a;
-			color: #0a0a0a;
-			font-size: 16px;
-			resize: none;
-			overflow: hidden;
-		}
-
-		.scroll::-webkit-scrollbar {
-   			display: none;
-		}
-
-		.btn-primary {
-			width: 14%;
-			height: 26%;
-			border: none;
-			border-radius: 50px;
-			font-size: 20px;
-			margin: 4px 0px 0px 0px;
-		}
-
-
-		table {
-			width: 360px;
-			height:  20px;
-			padding: 10px;
-			empty-cells: show;
-			float: left;
-			text-align:center;
-			color: black;
-			box-sizing: border-box;
-			border: solid 2px #0a0a0a;
-			font-size: 16px;
-			resize: none;
-			empty-cells: show;
-		}
-
-		td, th {
-			height:  38px;
-			border: 2px solid rgb(0, 0, 0);
-			padding: 0.5rem;
-			text-align:center;
-			font-weight:900;
-		}
-				
-	</style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flask</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title></title> 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
     <link href="static/css/bootstrap.css" rel="stylesheet" />
     <!-- FontAwesome Styles-->
@@ -90,31 +13,158 @@
     <!-- Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="static/js/Lightweight-Chart/cssCharts.css"> 
+	
+	<style>
+
+		.web_title{
+			float: left;
+			display: flex;
+			flex-direction: row;
+			gap: 44px;
+			flex-wrap: nowrap;
+			align-items: center; 
+		}	
+		
+		img {
+			width: 215px;
+			height: 39px;
+		}
+
+		.image_space{
+			border-top: 8.7px solid white;
+			border-bottom: 8.7px solid white;
+			border-left: 20px solid white;
+			border-right: 21px solid white;
+		}
+
+		.label_title{
+			width: 490px;
+			font-size: 18px;
+			color:white;
+			margin: 0px 0px 0px 0px;
+		}
+
+		.label_section {
+			width: 23vw;
+			font-size: 1.5vw;
+			margin: 0vw 0vw 0vw 0vw;
+			color:black;
+		}
+
+		textarea {
+			width: 22vw; 
+    		height: 9vw;
+			white-space: pre-wrap;
+			padding: 10px;
+			vertical-align: middle;
+			box-sizing: border-box;
+			border: solid 2px #0a0a0a;
+			color: #0a0a0a;
+			font-size: 1.6vw;
+			resize: none;
+			margin: 0px 4vw 0vw 0px;
+		}
+
+		.btn-primary {
+			width: 8vw; 
+    		height: 3vw;
+			border: none;
+			border-radius: 8vw;
+			font-size: 1.6vw;
+			margin: 0.5vw 0vw 0vw 0vw;
+		}
+
+		table {
+    		height: 3.05vw;
+			padding: 1px;
+			empty-cells: show;
+			text-align:center;
+			color: black;
+			box-sizing: border-box;
+			font-size: 1.25vw;
+			resize: none;
+			empty-cells: show;
+		}
+
+		td, th {
+			width: 34vw; 
+			height: 3.05vw;
+			border: 0.2vw solid rgb(0, 0, 0);
+			padding: 0.5rem;
+			text-align:center;
+			font-size: 1.25vw;
+			font-weight:80vw;
+		}
+				
+		.ml-container1 {
+			width: 68vw; 
+    		height: 8vw;
+    		
+			margin: auto;
+    		position: absolute;
+			float: left;
+			display: flex;
+			flex-direction: row;
+			gap: 2vw;
+			flex-wrap: nowrap;
+			align-items: center;  
+		}
+
+		.ml-container2 {
+			width: 68vw;  
+    		height: 38vw;
+			float: left;
+			display: flex;
+			flex-direction: row;
+			gap: 2vw;
+			flex-wrap: nowrap;
+			align-items: center; 
+		}
+
+		.ml-container3 {
+			width: 68vw; 
+    		height: 0vw;
+			float: left;
+			display: flex;
+			flex-direction: row;
+			gap: 2vw;
+			flex-wrap: nowrap;
+			align-items: center; 
+		}
+
+	</style>
+    
 </head>
 
 <body>
-    <div id="wrapper">
-        <nav class="navbar navbar-default top-navbar" role="navigation">
-			<a href="/">
-                <img src="https://www.xxx.jpg"> </a>
+    <div id="wrapper"  style="width: 10vw;">
+        <nav class="navbar navbar-default top-navbar" role="navigation" >
+			
 			
 			<div class="navbar-header">    
 		
             </div>
-			<span style="line-height:1.3em"><br></span>
-			&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;
-			&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&ensp;&emsp;&emsp;
-			&ensp;<font size="4.5em" color="white"><strong>
-				자동화 알고리즘</strong></font>
-        </nav>
+			<div class = "web_title" >
+			<a href="/">
+			<div class="image_space">
+			<img src="image.png" alt="placeholder">
+		    </div> 	
+			</a>
+			<label class="label_title"><strong>
+				자동화 알고리즘</strong></label>
+			</div>
+			</nav>
 
 	   <!--/. NAV TOP  -->
-        <nav class="navbar-default navbar-side" role="navigation">
+        <nav class="navbar-default navbar-side" role="navigation" style="width:257px; height:40px;">
             <div class="sidebar-collapse">
-                <ul class="nav" id="main-menu">
+                <ul class="nav" id="main-menu" >
                     <li>
-                        <a class="active-menu waves-effect waves-dark" href="/" style="font-size: 21px">&emsp;&emsp;<i class="fa fa-desktop"></i>&ensp;Demo
-							&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;&nbsp;</a>	
+                        <a class="active-menu waves-effect waves-dark" href="/"
+						style="font-size: 2.1rem; font-weight:90px;">
+							<i class="fa fa-desktop" 
+							style="margin:0px 28px 0px 0px;"></i>
+							Demo</a>	
                     </li>
 					
                 </ul>
@@ -125,14 +175,12 @@
         <!-- /. NAV SIDE  -->
       
 		<div id="page-wrapper">
-		  <div class="header" style="line-height:55%;"> 
+		  <div class="header" style="line-height:35%;"> 
 						<br><br/>
-                        <h1 class="page-header">
-                            &nbsp;Demo
+                        <h1 class="page-header"
+						style="font-size: 4rem; margin: 0vw 1vw">
+							<strong>Demo</strong>
                         </h1>
-						<ol class="breadcrumb">
-					  <!-- <li><a href="#">Home</a></li>
-					  <li class="active">Demo</li> -->
 					</ol> 
 									
 		</div>
@@ -141,100 +189,90 @@
 			
 				<div class="ml-container1" style="word-break:break-all;">
 				
+					<label class="label_section"><center><b>Task 1</b></center></label> 
 					<form action="/" method="POST">
-						<label>&nbsp;&nbsp;<b>Task 1</b> &emsp;&ensp;</label> 
-					<!-- <input type="text" name="comment"/> -->
-					<textarea class="scroll" name="message_task1"></textarea>
-					&emsp;&emsp;&emsp;&ensp;&nbsp;
-					<input type="submit" class="btn-primary" value="Predict">
-					&ensp;&emsp;&emsp;&emsp;&emsp;&ensp;
+					<fieldset style="width:37vw;">
+					<textarea class="scroll" name="message_task1" cols="20vw"></textarea>
+					<input type="submit" class="btn-primary" value="Predict">	
+					</fieldset>	
 					</form>		
-				</div>	
-				<table class="a" style="margin:-20px 0px 0px 0px;">
+
+				<table class="a">
 					<tr bgcolor="#F7F2E0">
-						<td><b>Object 1</b></td>
-						<td><b>Object 2</b></td>
+						<td><center><b>Object 1</b></center></td>
+						<td><center><b>Object 2</b></center></td>
 					</tr>
 					<tr>
-						<td>{{result_task1}}</td>
-						<td>{{number_task1}}</td>
+						<td><center>{{result_task1r}}</center></td>
+						<td><center>{{number_task1r}}</center></td>
 					</tr>
 				</table>
+			</div>
 		
-				<br><br/><br><br/><br><br/><br><br/><br><br/>
+				
 			<div class="ml-container2" style="word-break:break-all;">
-					
+				<label class="label_section"><center><b>Task 2</b></center></label> 	
 				<form action="/" method="POST">
-					<label>&nbsp;&nbsp;&emsp;<b>Task 2</b>&nbsp;&nbsp;&nbsp;&emsp;&ensp;&ensp;</label> 
-				<!-- <input type="text" name="comment"/> -->
+				<fieldset style="width:37vw;">
 				<textarea class="scroll" name="message_task2"></textarea>
-				&emsp;&emsp;&emsp;&ensp;&nbsp;
 				<input type="submit" class="btn-primary" value="Predict">
-				&ensp;&emsp;&emsp;&emsp;&emsp;&ensp;
-				</form>		
-			</div>	
-			<table class="a" style="margin:-63px 0px 0px 0px;">
+				</fieldset>	
+				</form>	
+				
+			<table class="a">
 				<tr bgcolor="#F7F2E0">
-					<td><b>Object 3</b></td>
-					<td><b>Object 4</b></td>
+					<td><center><b>Object 3</b></center></td>
+					<td><center><b>Object 4</b></center></td>
 				</tr>
 				<tr>
-					<td>{{result_task2}}</td>
-					<td>{{number_task2}}</td>
+					<td><center>{{result_task2_01}}</center></td>
+					<td><center>{{number_task2_01}}</center></td>
 				</tr>
 				<tr>
-					<td>{{result_task2_01}}</td>
-					<td>{{number_task2_01}}</td>
+					<td><center>{{result_task2_02}}</center></td>
+					<td><center>{{number_task2_02}}</center></td>
 				</tr>
 				<tr>
-					<td>{{result_task2_02}}</td>
-					<td>{{number_task2_02}}</td>
+					<td><center>{{result_task2_03}}</center></td>
+					<td><center>{{number_task2_03}}</center></td>
 				</tr>
 			</table>
+			</div>
 			
-			
-			<br><br/><br><br/><br><br/><br><br/><br><br/><br><br/>
+
 			<div class="ml-container3">
-					
+				<label class="label_section"><center><b>Task 3</b></center></label> 	
 				<form action="/" method="POST">
-					<label>&nbsp;&nbsp;<b>Task 3</b> &emsp;&ensp;</label> 
-				<!-- <input type="text" name="comment"/> -->
+				<fieldset style="width:37vw;">
 				<textarea class="scroll" name="message_task3"></textarea>
-				&emsp;&emsp;&emsp;&ensp;&nbsp;
-				<input type="submit" class="btn-primary" value="Predict">
-				&ensp;&emsp;&emsp;&emsp;&emsp;&ensp;
+				<input type="submit" class="btn-primary" value="Predict">	
+				</fieldset>
 				</form>		
-			</div>	
-			<table class="a" style="margin:-61px 0px 0px 0px;">
+				
+				
+			<table class="a">
 				<tr bgcolor="#F7F2E0">
-					<td><b>Object 5</b></td>
-					<td><b>Object 6</b></td>
+					<td><center><b>Object 5</b></center></td>
+					<td><center><b>Object 6</b></center></td>
 				</tr>
 				<tr>
-					<td>{{result_task3}}</td>
-					<td>{{number_task3}}</td>
+					<td><center>{{result_task3_01}}</center></td>
+					<td><center>{{number_task3_01}}</center></td>
 				</tr>
 				<tr>
-					<td>{{result_task3_01}}</td>
-					<td>{{number_task3_01}}</td>
+					<td><center>{{result_task3_02}}</center></td>
+					<td><center>{{number_task3_02}}</center></td>
 				</tr>
 				<tr>
-					<td>{{result_task3_02}}</td>
-					<td>{{number_task3_02}}</td>
+					<td><center>{{result_task3_03}}</center></td>
+					<td><center>{{number_task3_03}}</center></td>
 				</tr>
 			</table>
+			</div>
 		
 			</div>
 				
-			
-				</div>
-		
-				<footer><p> <i class="fa fa-love"></i><a href="https://bootstrapthemes.co"> </a>
-</p>
 				
-        
-				</footer>
-            </div>
             <!-- /. PAGE INNER  -->
         </div>
         <!-- /. PAGE WRAPPER  -->
@@ -242,28 +280,10 @@
     <!-- /. WRAPPER  -->
     <!-- JS Scripts-->
     <!-- jQuery Js -->
-    <script src="static/js/jquery-1.10.2.js"></script>
-	
 	<!-- Bootstrap Js -->
-    <script src="static/js/bootstrap.min.js"></script>
-	
-	<script src="static/materialize/js/materialize.min.js"></script>
-	
     <!-- Metis Menu Js -->
-    <script src="static/js/jquery.metisMenu.js"></script>
     <!-- Morris Chart Js -->
-    <script src="static/js/morris/raphael-2.1.0.min.js"></script>
-    <script src="static/js/morris/morris.js"></script>
-	
-	
-	<script src="static/js/easypiechart.js"></script>
-	<script src="static/js/easypiechart-data.js"></script>
-	
-	 <script src="static/js/Lightweight-Chart/jquery.chart.js"></script>
-	
     <!-- Custom Js -->
-    <script src="static/js/custom-scripts.js"></script> 
- 
 
 </body>
 
