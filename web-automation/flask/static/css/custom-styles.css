@@ -15,10 +15,11 @@ body {
     margin: 0;
     padding-top: 0%
 }
+
 #page-wrapper{
     width:  90vw;
     height: 90vw;
-    margin: 0px 0vw -3vw 257px;
+    margin: 0px 100px -3vw 257px;
 	background: #e0e8f5;
 }
 #page-inner {
@@ -75,7 +76,7 @@ margin:0px 0px 0px 0px;
 .active-menu i{color: #f44336 !important;}
 
 .top-navbar {
-    width: 1950px; height:55.3px;
+    width: 100vw; height:55.3px;
     z-index:300;
 	background: #f44336;
 	border-bottom:none;
