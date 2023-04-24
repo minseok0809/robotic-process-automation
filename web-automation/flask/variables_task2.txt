@@ -1,6 +1,0 @@
-Not a Spam(It is a Bam)
--2
-Not a Spam(It is a Ham)
--1
-Not a Spam(It is a Zam)
-0
