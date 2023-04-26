@@ -58,7 +58,16 @@ position: absolute;
     background-color: transparent;
     padding: 17px 22px 1vw 27px;
     color: #000000;
-    font-weight:100vw;}
+    font-weight:100vw;
+    margin: auto;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    flex-wrap: nowrap;
+    align-items: center;  
+
+}
 
 /*----------------------------------------------
     MENU STYLES    

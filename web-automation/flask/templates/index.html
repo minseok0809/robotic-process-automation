@@ -1,6 +1,11 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"> 
 <head>
+	<script>
+		if ( window.history.replaceState ) {
+		  window.history.replaceState( null, null, window.location.href );
+		}
+	</script>
     <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title></title> 
@@ -26,16 +31,17 @@
 		}	
 		
 		img {
-			width: 216px;
+			width: 120px;
 			height: 39.5px;
+			margin: 6px 60px 0px 60px;
 		}
 
-		.image_space{
+		/* .image_space{
 			border-top: 8.7px solid white;
 			border-bottom: 8.7px solid white;
 			border-left: 20px solid white;
 			border-right: 21px solid white;
-		}
+		} */
 
 		.label_title{
 			width: 490px;
@@ -72,6 +78,17 @@
 			border-radius: 8vw;
 			font-size: 1.6vw;
 			margin: 0.5vw 0vw 0vw 0vw;
+			text-align: center;
+		}
+
+		.btn-success {
+			width: 4.5vw; 
+    		height: 4.5vw;
+			border: none;
+			border-radius: 100%;
+			font-size: 1.6vw;
+			margin: 0.5vw 0vw 0vw 0vw;
+			text-align: center;
 		}
 
 		table {
@@ -147,7 +164,7 @@
 			<div class = "web_title" >
 			<a href="/">
 			<div class="image_space">
-			<img src="image.png" alt="placeholder">
+			<img src="https://cdn-icons-png.flaticon.com/512/5038/5038590.png" alt="placeholder">
 		    </div> 	
 			</a>
 			<label class="label_title"><strong>
@@ -178,8 +195,57 @@
 		  <div class="header" style="line-height:35%;"> 
 						<br><br/>
                         <h1 class="page-header"
-						style="font-size: 4rem; margin: 0vw 1vw">
+						style="font-size: 4vw; margin: 0vw 1vw">
 							<strong>Demo</strong>
+							<div class="btn-success-multiple">
+							<input type="submit" class="btn-success" value="1" onclick="onclick_function(1);">
+							<input type="submit" class="btn-success" value="2" onclick="onclick_function(2);">	
+							<input type="submit" class="btn-success" value="3" onclick="onclick_function(3);">	
+							<script>
+								function onclick_function(btn_num){
+									if (btn_num == 1) 
+									{
+										task1_text_content = "Your package is awaiting delivery📥 bit.ly/xxxxxxx";
+										task1_text_area = document.getElementById("task1_text").value=task1_text_content;
+
+										task2_text_content = "The way to get started is to quit talking and begin doing";
+										task2_text_area = document.getElementById("task2_text").value=task2_text_content;
+
+										task3_text_content = "How fast are your fingers? Test Now! -> https://play.google.com/store/apps/details?idxxxxxxx)";
+										task3_text_area = document.getElementById("task3_text").value=task3_text_content;
+										
+									}
+									else if (btn_num == 2) 
+									{
+										task1_text_content = "If life were predictable it would cease to be life, and be without flavor";
+										task1_text_area = document.getElementById("task1_text").value=task1_text_content;
+
+										task2_text_content = "Good evening sir, happy resumption. I had called your number today but you did not pick it. Please forward watchword money to my account";
+										task2_text_area = document.getElementById("task2_text").value=task2_text_content;
+
+										task3_text_content = "If you look at what you have in life, you'll always have more";
+										task3_text_area = document.getElementById("task3_text").value=task3_text_content;
+									}
+									else if (btn_num == 3) 
+									{
+										task1_text_content = "I use PayTree sent you up to € 25 Sign up with my link to claim, then get €300, 000 give away fund: https://palmpay.site/QXAfLgKsPhKA";
+										task1_text_area = document.getElementById("task1_text").value=task1_text_content;
+
+										task2_text_content = "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success";
+										task2_text_area = document.getElementById("task2_text").value=task2_text_content;
+
+										task3_text_content = "You have received USD150 from John Carpenter (+1)11111111 in your Mobile Money account on 2021–04–22 Message from sender: Transaction ID: 2901380912. For a successful cash out Ecobank will contact you for more inquiries";
+										task3_text_area = document.getElementById("task3_text").value=task3_text_content;
+		
+									}
+									else 
+									{			
+									}
+									}
+							</script>
+							</div>
+
+
                         </h1>
 					</ol> 
 									
@@ -192,8 +258,8 @@
 					<label class="label_section"><center><b>Task 1</b></center></label> 
 					<form action="/" method="POST">
 					<fieldset style="width:37vw;">
-					<textarea class="scroll" name="message_task1" cols="20vw"></textarea>
-					<input type="submit" class="btn-primary" value="Predict">	
+					<textarea id="task1_text" class="scroll" name="message_task1" cols="20vw">{{message_task1}}</textarea>
+					<input id="button1" type="submit" class="btn-primary" value="Predict">	
 					</fieldset>	
 					</form>		
 
@@ -203,8 +269,8 @@
 						<td><center><b>Object 2</b></center></td>
 					</tr>
 					<tr>
-						<td><center>{{result_task1r}}</center></td>
-						<td><center>{{number_task1r}}</center></td>
+						<td><center>{{result_task1}}</center></td>
+						<td><center>{{number_task1}}</center></td>
 					</tr>
 				</table>
 			</div>
@@ -214,7 +280,7 @@
 				<label class="label_section"><center><b>Task 2</b></center></label> 	
 				<form action="/" method="POST">
 				<fieldset style="width:37vw;">
-				<textarea class="scroll" name="message_task2"></textarea>
+				<textarea id="task2_text" class="scroll" name="message_task2">{{message_task2}}</textarea>
 				<input type="submit" class="btn-primary" value="Predict">
 				</fieldset>	
 				</form>	
@@ -244,7 +310,7 @@
 				<label class="label_section"><center><b>Task 3</b></center></label> 	
 				<form action="/" method="POST">
 				<fieldset style="width:37vw;">
-				<textarea class="scroll" name="message_task3"></textarea>
+				<textarea id="task3_text" class="scroll" name="message_task3">{{message_task3}}</textarea>
 				<input type="submit" class="btn-primary" value="Predict">	
 				</fieldset>
 				</form>		
@@ -269,7 +335,8 @@
 				</tr>
 			</table>
 			</div>
-		
+
+	
 			</div>
 				
 				
