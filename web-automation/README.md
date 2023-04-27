@@ -1,7 +1,7 @@
 # Web Automation
 
 <br></br>
-## Flask
+## Flask - SMS Message Spam Detector
 <br>SMS Message Spam Detector
 <br>[Github](https://github.com/susanli2016/SMS-Message-Spam-Detector)
 <br><br>SMS Spam Collection Dataset
