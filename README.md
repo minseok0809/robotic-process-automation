@@ -6,6 +6,7 @@
 * Lecture List
 * Youtube Playlist
 * Google Chrome Scroll
+* Paragraph Break Line Maker
 <br/><br/><br/><br/><br/>
 ## File Management
 * Split txt into multiple txt
