@@ -9,6 +9,7 @@
 * Paragraph Break Line Maker
 <br/><br/><br/><br/><br/>
 ## File Management
+* Pdf Editor
 * Split txt into multiple txt
 * Merge txt
 <br/><br/><br/><br/><br/>
