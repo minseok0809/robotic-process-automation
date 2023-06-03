@@ -1,5 +1,13 @@
 # Robotic Process Automation
 <br/><br/><br/>
+## File Management
+* Pdf Editor
+* Split txt into multiple txt
+* Merge txt
+<br/><br/><br/><br/><br/>
+## Software Design
+* Flowchart
+<br/><br/><br/><br/><br/>
 ## Study Automation
 * Lecture Attendance Status Checker
 * Lecture Note
@@ -7,11 +15,6 @@
 * Youtube Playlist
 * Google Chrome Scroll
 * Paragraph Break Line Maker
-<br/><br/><br/><br/><br/>
-## File Management
-* Pdf Editor
-* Split txt into multiple txt
-* Merge txt
 <br/><br/><br/><br/><br/>
 ## Web Automation
 ### Flask - SMS Message Spam Detector
