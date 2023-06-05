@@ -7,6 +7,7 @@
 <br/><br/><br/><br/><br/>
 ## Software Design
 * Flowchart
+* Directed Graph
 <br/><br/><br/><br/><br/>
 ## Study Automation
 * Lecture Attendance Status Checker
