@@ -2,7 +2,7 @@
 <br/><br/><br/>
 ## File Management
 * PDF Editor
-* Split txt into multiple txt
+* Split TXT into multiple TXT
 * Merge TXT
 <br/><br/><br/><br/><br/>
 ## Software Design
