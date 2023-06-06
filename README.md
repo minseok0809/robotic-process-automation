@@ -1,9 +1,9 @@
 # Robotic Process Automation
 <br/><br/><br/>
 ## File Management
-* Pdf Editor
+* PDF Editor
 * Split txt into multiple txt
-* Merge txt
+* Merge TXT
 <br/><br/><br/><br/><br/>
 ## Software Design
 * Flowchart
