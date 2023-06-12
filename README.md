@@ -15,6 +15,7 @@
 * Lecture List
 * Youtube Playlist
 * Google Chrome Scroll
+* arXiv Paper Downloader
 * Paragraph Break Line Maker
 <br/><br/><br/><br/><br/>
 ## Web Automation
