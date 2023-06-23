@@ -1,0 +1,1 @@
+jupyter nbconvert sample.ipynb --to html
