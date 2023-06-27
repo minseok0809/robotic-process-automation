@@ -9,6 +9,7 @@
 * Font Manager
 <br/><br/><br/><br/><br/>
 ## Software Design
+* Ganttchart
 * Flowchart
 * Directed Graph
 <br/><br/><br/><br/><br/>
