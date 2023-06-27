@@ -6,6 +6,7 @@
 * PDF Editor
 * Split TXT into multiple TXT
 * Merge TXT
+* Font Manager
 <br/><br/><br/><br/><br/>
 ## Software Design
 * Flowchart
