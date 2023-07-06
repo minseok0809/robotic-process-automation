@@ -1,5 +1,10 @@
 # Robotic Process Automation
 <br/><br/><br/>
+## Dataframe Editor
+* Attach Image to Dataframe 
+* Convert HTML to Dataframe
+* Small Chunks in Big Dataframe
+<br/><br/><br/><br/><br/>
 ## File Management
 * ipynb to HTML Converter
 * HTML to PDF Converter
@@ -17,11 +22,16 @@
 * Lecture Attendance Status Checker
 * Lecture Note
 * Lecture List
+* Exam Score Result
+* GPA Rating
 * Youtube Playlist
 * Google Chrome Scroll
 * arXiv Paper Downloader
 * Paragraph Break Line Maker
 * MOSS: Source Code Plagrism Detection
+<br/><br/><br/><br/><br/>
+## Web Crawler
+* Video Downloader
 <br/><br/><br/><br/><br/>
 ## Web Automation
 ### Flask - SMS Message Spam Detector
