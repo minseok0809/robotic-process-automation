@@ -47,3 +47,13 @@
 <br>![flask_demo](https://user-images.githubusercontent.com/97289420/234529527-1f8d6081-13f0-454a-9f6a-472f5970e5f8.png)
 <br><br><br><br><br><br>![flask_demo_usage](https://user-images.githubusercontent.com/97289420/234529573-cc52e954-76ae-4772-8a2a-e9f7f8cbc7b4.gif)
 <br><br><br>
+## Future Work
+<br>
+<b>Pypiwin32 / Pywin32 / PyPDF2 / Xlwings / Python-Docx / PDFMiner</b>
+<br/><b>PyAutoGUI / Paramiko / Fabric / OpenDartReader / Pywinauto</b>
+<br/><b>APScheduler / Selenium / beautifulsoup / Requests</b>
+<br/><b>Scipy / FinanceDataReader / Quantlib / Hypothesis / NumPy</b>
+<br/><b>Zipline / Playwright / Splinter / Robot Framework / Behave</b>
+<br/><b>PyBuilder / Pytest / Watchdog / Tavern / RPA Python / Locust</b>
+<br/><b>Coverage.py / PyUnit / PyCharm / Faker</b>
+<br/><br/><br/><br/><br/>
