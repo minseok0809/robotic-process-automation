@@ -48,8 +48,9 @@
 <br><br><br><br><br><br>![flask_demo_usage](https://user-images.githubusercontent.com/97289420/234529573-cc52e954-76ae-4772-8a2a-e9f7f8cbc7b4.gif)
 <br><br><br>
 ## Future Work
-<br>
-<b>Pypiwin32 / Pywin32 / PyPDF2 / Xlwings / Python-Docx / PDFMiner</b>
+<br/><b>Scrapy /xml / Mechanicalsoup / Zenrow / Pytrend</b>
+<br/><b>Datastreamer / Proxy server / Pyspider / [Php](https://tipland.tistory.com/57)</b>
+<br/><b>Pypiwin32 / Pywin32 / PyPDF2 / Xlwings / Python-Docx / PDFMiner</b>
 <br/><b>PyAutoGUI / Paramiko / Fabric / OpenDartReader / Pywinauto</b>
 <br/><b>APScheduler / Selenium / beautifulsoup / Requests</b>
 <br/><b>Scipy / FinanceDataReader / Quantlib / Hypothesis / NumPy</b>
