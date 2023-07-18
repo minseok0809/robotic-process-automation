@@ -63,4 +63,10 @@
 <br/><b>Zipline / Playwright / Splinter / Robot Framework / Behave</b>
 <br/><b>PyBuilder / Pytest / Watchdog / Tavern / RPA Python / Locust</b>
 <br/><b>Coverage.py / PyUnit / PyCharm / Faker</b>
+<br/><br/><b>Content of Crawlser
+Scholar(Google Scholar, Wikipedia, RISS, Nearby Libray)
+Shopping(Amazon)
+Economics(Real Estate)
+Media(Youtube, Instagram, Melon, Youtube Music, Rolling Stone, GQ, New York Times)
+Language(NPR, BBC English, Project Gutenberg, Hackers English, Hackers Chinese)
 <br/><br/><br/><br/><br/>
