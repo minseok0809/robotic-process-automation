@@ -48,6 +48,11 @@
 <br>![flask_demo](https://user-images.githubusercontent.com/97289420/234529527-1f8d6081-13f0-454a-9f6a-472f5970e5f8.png)
 <br><br><br><br><br><br>![flask_demo_usage](https://user-images.githubusercontent.com/97289420/234529573-cc52e954-76ae-4772-8a2a-e9f7f8cbc7b4.gif)
 <br><br><br>
+
+## Library
+`os` `shutil` `glob` `urllib` `beautifulsoup` `Request` `googleapiclient` `oauth2client` `pandas` `pdfkit` `PyPDF2` `html` `flask` `threading` `BytesIO` `base64` `IPython.core.display`
+<br/><br/><br/><br/><br/>
+
 ## Future Work
 <br/><b>Scrapy /xml / Mechanicalsoup / Zenrow / Pytrend</b>
 <br/><b>Datastreamer / Proxy server / Pyspider / [Php](https://tipland.tistory.com/57)</b>
