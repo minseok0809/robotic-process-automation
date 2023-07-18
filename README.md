@@ -66,7 +66,7 @@
 <br/>PyBuilder / Pytest / Watchdog / Tavern / RPA Python / Locust
 <br/>Coverage.py / PyUnit / PyCharm / Faker
 <br/><br/><b>Content of Crawler</b>
-<br/>Scholar: Google Scholar, Wikipedia, RISS, Nearby Libray, Stack Overflow, Stack Exchange, Quora
+<br/>Scholar: Google Scholar, Wikipedia, RISS, Nearby Libray, Stack Overflow, Stack Exchange, Quora, 열린연단
 <br/>Shopping: Amazon, Coupang, Naver Shopping, Danawa
 <br/>Economics: Real Estate
 <br/>Media: Youtube, Instagram, Melon, Youtube Music, Rolling Stone, GQ, New York Times
