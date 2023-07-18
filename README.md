@@ -54,19 +54,23 @@
 <br/><br/><br/><br/><br/>
 
 ## Future Work
-<br/><b>Scrapy /xml / Mechanicalsoup / Zenrow / Pytrend</b>
-<br/><b>Datastreamer / Proxy server / Pyspider / [Php](https://tipland.tistory.com/57)</b>
-<br/><b>Pypiwin32 / Pywin32 / PyPDF2 / Xlwings / Python-Docx / PDFMiner</b>
-<br/><b>PyAutoGUI / Paramiko / Fabric / OpenDartReader / Pywinauto</b>
-<br/><b>APScheduler / Selenium / beautifulsoup / Requests</b>
-<br/><b>Scipy / FinanceDataReader / Quantlib / Hypothesis / NumPy</b>
-<br/><b>Zipline / Playwright / Splinter / Robot Framework / Behave</b>
-<br/><b>PyBuilder / Pytest / Watchdog / Tavern / RPA Python / Locust</b>
-<br/><b>Coverage.py / PyUnit / PyCharm / Faker</b>
-<br/><br/><b>Content of Crawlser
-Scholar(Google Scholar, Wikipedia, RISS, Nearby Libray)
-Shopping(Amazon)
-Economics(Real Estate)
-Media(Youtube, Instagram, Melon, Youtube Music, Rolling Stone, GQ, New York Times)
-Language(NPR, BBC English, Project Gutenberg, Hackers English, Hackers Chinese)
+
+<br/><b>Library</b>
+<br/>Scrapy /xml / Mechanicalsoup / Zenrow / Pytrend
+<br/>Datastreamer / Proxy server / Pyspider / [Php](https://tipland.tistory.com/57)
+<br/>Pypiwin32 / Pywin32 / PyPDF2 / Xlwings / Python-Docx / PDFMiner
+<br/>PyAutoGUI / Paramiko / Fabric / OpenDartReader / Pywinauto
+<br/>APScheduler / Selenium / beautifulsoup / Requests
+<br/>Scipy / FinanceDataReader / Quantlib / Hypothesis / NumPy
+<br/>Zipline / Playwright / Splinter / Robot Framework / Behave
+<br/>PyBuilder / Pytest / Watchdog / Tavern / RPA Python / Locust
+<br/>Coverage.py / PyUnit / PyCharm / Faker
+<br/><br/><b>Content of Crawler</b>
+<br/>Scholar: Google Scholar, Wikipedia, RISS, Nearby Libray, Stack Overflow, Stack Exchange, Quora
+<br/>Shopping: Amazon, Coupang, Naver Shopping, Danawa
+<br/>Economics: Real Estate
+<br/>Media: Youtube, Instagram, Melon, Youtube Music, Rolling Stone, GQ, New York Times
+<br/>Literature: Project Gutenberg, Literature Translation Institute of Korea
+<br/>Travel: Trip Advisor
+<br/>Language: NPR, BBC English, Project Gutenberg, Hackers English, Hackers Chinese, Korean Herald
 <br/><br/><br/><br/><br/>
