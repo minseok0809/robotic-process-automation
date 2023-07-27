@@ -5,7 +5,12 @@
 * Convert HTML to Dataframe
 * Small Chunks in Big Dataframe
 <br/><br/><br/><br/><br/>
+## Data Preprocessing
+* Text To Case-Sensitive Converter
+* Text To One Line Converter
+<br/><br/><br/><br/><br/>
 ## File Management
+* Make Multiple Folder
 * ipynb to HTML Converter
 * HTML to PDF Converter
 * [Excel to Markdown Converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/)
