@@ -6,4 +6,6 @@
 ### PDF Editor
 ### Split TXT into multiple TXT
 ### Merge TXT
+### Music MP3 Duration Calculator
+### Video MP4 Duration Calculator
 ### Font Manager
