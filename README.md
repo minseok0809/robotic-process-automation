@@ -32,6 +32,7 @@
 * Lecture List
 * Exam Score Result
 * GPA Rating
+* PDF Reference Extractor
 * Youtube Playlist
 * Google Chrome Scroll
 * arXiv Paper Downloader
