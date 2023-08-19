@@ -67,7 +67,7 @@
 ## Future Work
 
 <br/><b>Library</b>
-<br/>Scrapy /xml / Mechanicalsoup / Zenrow / Pytrend
+<br/>Scrapy / xml / Mechanicalsoup / Zenrow / Pytrend
 <br/>Datastreamer / Proxy server / Pyspider / [Php](https://tipland.tistory.com/57)
 <br/>Pypiwin32 / Pywin32 / PyPDF2 / Xlwings / Python-Docx / PDFMiner
 <br/>PyAutoGUI / Paramiko / Fabric / OpenDartReader / Pywinauto
