@@ -46,6 +46,7 @@
 * Page Link Automatic Access
 * Subpage Link Extractor
 * HTML Table Parser & Dataframe to HTML Converter
+* Meteorological Administration Forecast Screenshot
 <br/><br/><br/><br/><br/>
 ## Web Automation
 ### Flask - SMS Message Spam Detector
