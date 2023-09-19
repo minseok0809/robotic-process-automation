@@ -23,25 +23,29 @@
 * Video MP4 Duration Calculator
 * Font Manager
 <br/><br/><br/><br/><br/>
-## Software Design
-* Ganttchart
-* Flowchart
-* Directed Graph
-<br/><br/><br/><br/><br/>
-## Study Automation
+## School Automation
 * Lecture Attendance Status Checker
 * Lecture Note
 * Lecture List
 * Exam Score Result
 * GPA Rating
-* PDF Reference Extractor
-* Youtube Playlist
-* Google Chrome Scroll
-* arXiv Paper Downloader
-* Paragraph Break Line Maker
 * [MOSS: Source Code Plagrism Detection](http://theory.stanford.edu/~aiken/moss/)
 <br/><br/><br/><br/><br/>
+## Software Design
+* Ganttchart
+* Flowchart
+* Directed Graph
+<br/><br/><br/><br/><br/>
+## Text Automation
+* Paragraph Break Line Maker
+* PDF Reference Extractor
+* Text to Speech Save Audio File
+* Merge Audio File
+<br/><br/><br/><br/><br/>
 ## Web Crawler
+* arXiv Paper Downloader
+* Google Chrome Scroll
+* Youtube Playlist
 * Video Downloader
 * Page Content & Link & Description Dataframe
 * Page Link Automatic Access
