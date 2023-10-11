@@ -37,6 +37,7 @@
 * Directed Graph
 <br/><br/><br/><br/><br/>
 ## Text Automation
+* Facebook NLLB Translator
 * Google Translator
 * Paragraph Break Line Maker
 * PDF Reference Extractor
