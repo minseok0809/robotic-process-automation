@@ -15,7 +15,7 @@
 * Make Multiple Folder
 * ipynb to HTML Converter
 * HTML to PDF Converter
-* [Excel to Markdown Converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) (Not My Project. Just Bookmark)
+* [Excel to Markdown Converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) (Just Bookmark)
 * PDF Editor
 * Split TXT into multiple TXT
 * Merge TXT
@@ -29,7 +29,7 @@
 * Lecture List
 * Exam Score Result
 * GPA Rating
-* [MOSS: Source Code Plagrism Detection](http://theory.stanford.edu/~aiken/moss/)
+* [MOSS: Source Code Plagrism Detection](http://theory.stanford.edu/~aiken/moss/) (Just Bookmark)
 <br/><br/><br/><br/><br/>
 ## Software Design
 * Ganttchart
