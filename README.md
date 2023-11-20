@@ -43,6 +43,9 @@
 * PDF Reference Extractor
 * Text to Speech Save Audio File
 * Merge Audio File
+* Speech Recognition Save Audio File
+* Split Audio File
+* Convert Audio File
 <br/><br/><br/><br/><br/>
 ## Web Crawler
 * arXiv Paper Downloader
