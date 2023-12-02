@@ -52,6 +52,7 @@
 * Google Chrome Bookmark Extractor
 * Google Chrome Scroll
 * Youtube Playlist
+* Youtube Music Downloader
 * Video Downloader
 * Page Content & Link & Description Dataframe
 * Page Link Automatic Access
