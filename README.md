@@ -1,5 +1,11 @@
 # Robotic Process Automation
 <br/><br/><br/>
+## AI Model (Bookmark)
+* [BART with JS UI](https://github.com/mrm8488/shared_colab_notebooks/blob/master/BART_with_JS_UI.ipynb)
+* [GPT2 with JS UI](https://github.com/mrm8488/shared_colab_notebooks/blob/master/GPT2_with_JS_UI.ipynb)
+* [GPT2 with Javascript interface POC](https://github.com/mrm8488/shared_colab_notebooks/blob/master/GPT2_with_Javascript_interface_POC.ipynb)
+<br/><br/><br/><br/><br/>
+
 ## Data Preprocessing
 * Text To Case-Sensitive Converter
 * Text To One Line Converter
@@ -16,7 +22,7 @@
 * ipynb to HTML Converter
 * HTML to PDF Converter
 * Parquet to CSV Converter
-* [Excel to Markdown Converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) (Just Bookmark)
+* [Excel to Markdown Converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) (Bookmark)
 * PDF Editor
 * Split TXT into multiple TXT
 * Merge TXT
@@ -31,7 +37,7 @@
 * Exam Score Result
 * Exam Score Dataframe to TXT Converter
 * GPA Rating
-* [MOSS: Source Code Plagrism Detection](http://theory.stanford.edu/~aiken/moss/) (Just Bookmark)
+* [MOSS: Source Code Plagrism Detection](http://theory.stanford.edu/~aiken/moss/) (Bookmark)
 <br/><br/><br/><br/><br/>
 ## Software Design
 * Ganttchart
