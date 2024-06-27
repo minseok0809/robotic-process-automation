@@ -4,6 +4,7 @@
 * [BART with JS UI](https://github.com/mrm8488/shared_colab_notebooks/blob/master/BART_with_JS_UI.ipynb)
 * [GPT2 with JS UI](https://github.com/mrm8488/shared_colab_notebooks/blob/master/GPT2_with_JS_UI.ipynb)
 * [GPT2 with Javascript interface POC](https://github.com/mrm8488/shared_colab_notebooks/blob/master/GPT2_with_Javascript_interface_POC.ipynb)
+* [LINER PDF Chatbot](https://github.com/liner-engineering/liner-pdf-chat-tutorial/tree/main)
 <br/><br/><br/><br/><br/>
 
 ## Data Preprocessing
