@@ -1,5 +1,6 @@
 # Robotic Process Automation
 <br/><br/><br/>
+
 ## AI Model (Bookmark)
 * [BART with JS UI](https://github.com/mrm8488/shared_colab_notebooks/blob/master/BART_with_JS_UI.ipynb)
 * [GPT2 with JS UI](https://github.com/mrm8488/shared_colab_notebooks/blob/master/GPT2_with_JS_UI.ipynb)
@@ -11,6 +12,7 @@
 * Text To Case-Sensitive Converter
 * Text To One Line Converter
 <br/><br/><br/><br/><br/>
+
 ## Dataframe Editor
 * Attach Image to Dataframe 
 * Convert HTML to Dataframe
@@ -18,6 +20,7 @@
 * GPU Information Dataframe
 * Small Chunks in Big Dataframe
 <br/><br/><br/><br/><br/>
+
 ## File Management
 * Directory Tree Convert to Dataframe
 * Make Multiple Folder
@@ -32,6 +35,7 @@
 * Video MP4 Duration Calculator
 * Font Manager
 <br/><br/><br/><br/><br/>
+
 ## School Automation
 * Lecture Attendance Status Checker
 * Lecture Note
@@ -41,11 +45,13 @@
 * GPA Rating
 * [MOSS: Source Code Plagrism Detection](http://theory.stanford.edu/~aiken/moss/) (Bookmark)
 <br/><br/><br/><br/><br/>
+
 ## Software Design
 * Ganttchart
 * Flowchart
 * Directed Graph
 <br/><br/><br/><br/><br/>
+
 ## Text Automation
 * Facebook NLLB Translator
 * Google Translator
@@ -58,6 +64,7 @@
 * Convert Audio File
 * Bullets Numbering For Text List
 <br/><br/><br/><br/><br/>
+
 ## Web Crawler
 * arXiv Paper Downloader
 * Google Chrome Bookmark Extractor
@@ -73,6 +80,7 @@
 * HTML Table Parser & Dataframe to HTML Converter
 * Meteorological Administration Forecast Screenshot
 <br/><br/><br/><br/><br/>
+
 ## Web Automation
 ### Flask - SMS Message Spam Detector
 <br>SMS Message Spam Detector
@@ -81,10 +89,15 @@
 <br>[Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 <br><br>Bootstrap Themes
 <br>[Target Free Responsive Bootstrap Admin Template](https://bootstrapthemes.co/item/target-free-responsive-bootstrap-admin-template/)
-<br>
-#### Sample
-<br>![flask_demo](https://user-images.githubusercontent.com/97289420/234529527-1f8d6081-13f0-454a-9f6a-472f5970e5f8.png)
+<br><br><br>![flask_demo](https://user-images.githubusercontent.com/97289420/234529527-1f8d6081-13f0-454a-9f6a-472f5970e5f8.png)
 <br><br><br><br><br><br>![flask_demo_usage](https://user-images.githubusercontent.com/97289420/234529573-cc52e954-76ae-4772-8a2a-e9f7f8cbc7b4.gif)
+<br><br><br>
+
+### Flask - Multi Task Inference
+<br><br>Bootstrap Themes
+<br>[Target Free Responsive Bootstrap Admin Template](https://bootstrapthemes.co/item/target-free-responsive-bootstrap-admin-template/)
+<br><br><br>
+![Image](https://github.com/user-attachments/assets/fbdfc389-bd35-4982-8e19-7494e9442195)
 <br><br><br>
 
 ## Library

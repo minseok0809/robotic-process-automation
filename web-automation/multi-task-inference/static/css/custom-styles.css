@@ -1,0 +1,135 @@
+/*----------------------------------------------
+Author : www.webthemez.com
+License: Commons Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/
+------------------------------------------------*/
+
+
+/*----------------------------------------------
+    COMMON  STYLES    
+------------------------------------------------*/
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background: #1F2837;
+    margin: 0;
+    padding-top: 0%
+}
+
+#page-wrapper{
+    width:  90vw;
+    height: 90vw;
+    margin: 0px 100px -3vw 257px;
+	background: #e0e8f5;
+}
+
+#page-inner {
+    position: sticky;
+    flex-direction: column;
+    width: 182vw;
+    height:182vw;
+    padding: 40px 30px 30px 30px;
+    margin: 100px 0px 0px 0px;
+}
+
+#taskdata1_text {
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px 0px 12px;
+}
+
+#button1 {
+    width: 70px;
+    height: 20px;
+}
+
+#data1_text {
+    width: 70px;
+    height: 50px;
+    margin: 0px 40px 0px 12px;
+}
+
+#task1_text {
+    width: 250px;
+    height: 250px;
+    margin: 0px 0px 0px 30px;
+}
+
+#task1_image {
+    width: 20%;
+    height: 20%;
+}
+
+#result1_text {
+    width: 180px;
+    height: 100px;
+    margin: 0px 0px 0px 20px;
+
+}
+
+#table_1 {
+    width: 100px;
+    height: 50px;
+}
+
+.navbar-side .nav > li > a > i{color: rgba(255, 255, 255, 0.62);
+    padding: 8px;width: 11px;text-align: center;font-size: 21px;}
+
+.navbar-side {
+position: absolute;
+  z-index: 2;
+  top: 75px;
+  box-shadow: none;
+}
+
+.dropdown-menu>li>a i {
+  color: #1F1F1F;
+}
+.text-muted {
+  color: #213452;
+}
+
+/*----------------------------------------------
+   DASHBOARD STYLES    
+------------------------------------------------*/
+.page-header {padding-bottom: 0;
+    margin: 0;
+    border-bottom: 1px solid transparent;
+    text-align: left;
+    background-color: transparent;
+    padding: 17px 22px 1vw 27px;
+    color: #000000;
+    font-weight:100vw;
+    margin: auto;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    flex-wrap: nowrap;
+    align-items: center;  
+
+}
+
+/*----------------------------------------------
+    MENU STYLES    
+------------------------------------------------*/
+
+.top-navbar{
+margin:0px 0px 0px 0px;
+}
+
+.active-menu, .active-menu i {
+    width: 257px;
+    background-color: #233342 !important;
+    color: #fff !important;
+}
+.active-menu i{color: #f44336 !important;}
+
+.top-navbar {
+    width: 100vw; height:55.3px;
+    z-index:300;
+	background: #f44336;
+	border-bottom:none;
+}
+
+.navbar-default {border: 0px solid #1f2837;}

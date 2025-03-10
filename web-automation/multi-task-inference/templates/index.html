@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+	<script>
+		if ( window.history.replaceState ) {
+		  window.history.replaceState( null, null, window.location.href );
+		}
+	</script>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title></title> 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link href="static/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="static/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="static/css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="static/js/Lightweight-Chart/cssCharts.css"> 
+	
+	<style>
+
+		.web_title{
+			float: left;
+			display: flex;
+			flex-direction: row;
+			gap: 44px;
+			flex-wrap: nowrap;
+			align-items: center; 
+		}	
+		
+		img {
+			width: 120px;
+			height: 39.5px;
+			margin: 6px 60px 0px 60px;
+		}
+
+
+		.label_title{
+			width: 490px;
+			font-size: 18px;
+			color:white;
+			margin: 0px 0px 0px 0px;
+		}
+
+		.label_section {
+			width: 23vw;
+			font-size: 1.5vw;
+			margin: 0vw 0vw 0vw 0vw;
+			color:black;
+		}
+
+		textarea {
+			width: 22vw; 
+    		height: 9vw;
+			white-space: pre-wrap;
+			padding: 10px;
+			vertical-align: middle;
+			box-sizing: border-box;
+			border: solid 2px #0a0a0a;
+			color: #0a0a0a;
+			font-size: 1.6vw;
+			resize: none;
+			margin: 0px 4vw 0vw 0px;
+		}
+
+		.btn-primary {
+			width: 8vw; 
+    		height: 3vw;
+			border: none;
+			border-radius: 8vw;
+			font-size: 1.6vw;
+			margin: 0.5vw 0vw 0vw 0vw;
+			text-align: center;
+		}
+
+		.btn-success {
+			width: 4.5vw; 
+    		height: 4.5vw;
+			border: none;
+			border-radius: 100%;
+			font-size: 1.6vw;
+			margin: 0.5vw 0vw 0vw 0vw;
+			text-align: center;
+		}
+
+		table {
+    		height: 3.05vw;
+			padding: 1px;
+			empty-cells: show;
+			text-align:center;
+			color: black;
+			box-sizing: border-box;
+			font-size: 1.25vw;
+			resize: none;
+			empty-cells: show;
+		}
+
+		td, th {
+			width: 34vw; 
+			height: 3.05vw;
+			border: 0.2vw solid rgb(0, 0, 0);
+			padding: 0.5rem;
+			text-align:center;
+			font-size: 1.25vw;
+			font-weight:80vw;
+		}
+				
+		.ml-container1 {
+			width: 68vw; 
+    		height: 8vw;
+    		position: sticky;
+			float: left;
+			gap: 2vw;
+			align-items: center;  
+		}
+
+	</style>
+    
+</head>
+
+<body>
+    <div id="wrapper"  style="width: 10vw;">
+        <nav class="navbar navbar-default top-navbar" role="navigation" >
+			
+			
+			<div class="navbar-header">    
+		
+            </div>
+			<div class = "web_title" >
+			<a href="/">
+			<div class="image_space">
+			<img src="https://cdn-icons-png.flaticon.com/512/5038/5038590.png" alt="placeholder">
+		    </div> 	
+			</a>
+			<label class="label_title" style="font-size:28px;"><strong>
+				자동화 알고리즘</strong></label>
+			</div>
+			</nav>
+
+	   <!--/. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation" style="width:257px; height:40px;">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu" >
+                    <li>
+                        <a class="active-menu waves-effect waves-dark" href="/"
+						style="font-size: 2.1rem; font-weight:90px;">
+							<i class="fa fa-desktop" 
+							style="margin:0px 28px 0px 0px;"></i>
+							Demo</a>	
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+      
+		<div id="page-wrapper">
+		  <div class="header" style="line-height:35%;"> 
+						<br><br/>
+                        <h1 class="page-header"
+						style="font-size: 46px; margin: 0vw 1vw">
+							<strong>Demo</strong>
+                        </h1>
+					</ol> 
+									
+		</div>
+            <div id="page-inner">
+			<div class="ml-container1" style="word-break:break-all;">
+				<form action="/" method="POST">
+
+				<label id="label_text" for="data1_text"><pre>Task No.    Data Index                                Data Sample                                 Prediction           </pre></label>
+				<br/>     <br/>  
+
+				<textarea id="taskdata1_text" name="message_taskdata" style="font-size:18px;">{{message_data}}</textarea>
+					
+				<textarea id="data1_text" name="message_data" style="font-size:15px;">{{message_data}}</textarea>
+	
+				<input id="button1" type="submit" class="btn-primary" value="Predict" style="font-size:13px;" onclick="onclick_function();">	
+
+				<textarea id="task1_text" name="message_task1" style="font-size:12px;">{{result_data1}}</textarea>
+
+				<img id="task1_image" src="data:image/png;base64,{{ img_data }}" onerror="this.style.display='none';" style="vertical-align: top;">
+
+				</form>		
+
+			<script>
+				function onclick_function(){
+					{	
+						taskdata1_text_area = document.getElementById("taskdata1_text").value=number_task1;
+						data1_text_area = document.getElementById("data1_text").value=number_data1;
+						task1_text_area = document.getElementById("task1_text").value=result_data1;
+						result1_text_area = document.getElementById("reulst1_text").value=result_task1;
+					}
+				}
+			</script>
+			</div>
+			</div>
+			</div>	
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+	<!-- Bootstrap Js -->
+    <!-- Metis Menu Js -->
+    <!-- Morris Chart Js -->
+    <!-- Custom Js -->
+	
+</body>
+
+</html>
