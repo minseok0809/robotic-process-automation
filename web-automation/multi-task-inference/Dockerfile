@@ -1,4 +1,4 @@
-From pytorch/pytorch:1.11.0-cuda11.3-cudnn8-devel
+From pytorch/pytorch:2.3.0-cuda11.8-cudnn8-devel
 COPY . /flask_demo						
 RUN pip install Flask
 WORKDIR /flask_demo	
