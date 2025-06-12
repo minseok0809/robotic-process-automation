@@ -74,6 +74,7 @@
 * Video Downloader
 * Page Content & Link Dataframe
 * Page Content & Link & Description Dataframe
+* Page Title & Hyperlink Dataframe
 * Page Link Automatic Access
 * Page Content Text to TXT
 * Subpage Link Extractor
