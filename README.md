@@ -28,6 +28,7 @@
 * HTML to PDF Converter
 * Parquet to CSV Converter
 * [Excel to Markdown Converter](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) (Bookmark)
+* [Markdown to HTML Converter](https://markdowntohtml.com/) (Bookmark)
 * PDF Editor
 * Split TXT into multiple TXT
 * Merge TXT
